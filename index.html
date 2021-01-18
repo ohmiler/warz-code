@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WarZ</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Itim" rel="stylesheet">
+
+</head>
+<body>
+
+    <div id="fb-root"></div>
+    <script>(function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/th_TH/sdk.js#xfbml=1&version=v3.0&appId=1091639074213833&autoLogAppEvents=1';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+    <main>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#">หน้าแรก</a></li>
+                    <li><a href="#">สมัครสมาชิก</a></li>
+                    <li><a href="#">แนะนำการเล่น</a></li>
+                    <li><a href="#">ดาวน์โหลด</a></li>
+                    <li><a href="#">จัดอันดับ</a></li>
+                    <li><a href="#">เว็บบอร์ด</a></li>
+                </ul>
+            </nav>
+
+            <section class="menuleft">
+                <div class="but1">
+                    <form action="login.php">
+                        <input type="text" name="uesrname">
+                        <input type="password" name="password"> <br>
+                        <input type="submit" value=""> 
+                        <a href="register.php"><div class="register"></div></a>
+                    </form>
+                </div>
+                <div class="butgroup">
+                    <a href="#"><div class="but2"></div></a>
+                    <a href="#"><div class="but3"></div></a>
+                    <a href="#"><div class="but4"></div></a>
+                    <a href="https://www.facebook.com/patiphanphengpao" target="_blank"><div class="but5"></div></a>
+                </div>
+            </section>
+
+            <section class="video_label">
+                <div class="label1"></div>
+                <iframe width="440" height="260" src="https://www.youtube.com/embed/1jf2Td5Jb28" frameborder="0" allow="autoplay; encrypted-media"
+                    allowfullscreen></iframe>
+
+                <section class="news_label">
+                    <div class="label2"></div>
+                    <iframe width="440" height="260" src="news.html" frameborder="0"></iframe>
+                </section>
+            </section>
+
+           <section class="menuright">
+               <div class="server">
+                   <p>สถานะเซิฟเวอร์ : <span class="on">Online</span></p>
+               </div>
+               <a href="#" target="_blank"><div class="activity"></div></a>
+               <div class="facebook"></div>
+
+                <div class="fb-page" data-href="https://www.facebook.com/patiphannn" data-tabs="timeline" data-width="190" data-height="350"
+                    data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                    <blockquote cite="https://www.facebook.com/patiphannn" class="fb-xfbml-parse-ignore">
+                        <a href="https://www.facebook.com/patiphannn">PatiPhan</a>
+                    </blockquote>
+                </div>
+           </section>
+
+           <footer class="clearfix">
+               <p>Copyright 2018 by MilerDev. All Rights Reserved. Powered by MileR</p>
+           </footer>
+        </div>
+    </main>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
